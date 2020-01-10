@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5F6CAF"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/chonburi"
+        android:text="ยินดีต้อนรับ"
+        android:textColor="#EDF7FA"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.068" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/abhaya_libre_semibold"
+        android:text="Health For Fit"
+        android:textColor="#EDF7FA"
+        android:textSize="30sp"
+        app:fontFamily="@font/abhaya_libre_semibold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.051" />
+
+    <ImageView
+        android:id="@+id/imgpage"
+        android:layout_width="304dp"
+        android:layout_height="235dp"
+        android:src="@drawable/weightlifting"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintVertical_bias="0.174" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="293dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/prompt_light"
+        android:text="    แอพพลิเคชั่น Health For Fit เป็นแอพพลิเคชั่นช่วยในการควบคุมการลดน้ำหนักซึ่งจะมีท่าพื้นฐานในการออกกำลังกายและคำแนะนำสำหรับท่าออกกำลังกาย"
+        android:textColor="#C3EDF7FA"
+        android:textSize="18sp"
+        app:fontFamily="@font/prompt_light"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgpage"
+        app:layout_constraintVertical_bias="0.236" />
+
+    <Button
+        android:id="@+id/btn_next"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ต่อไป"
+        app:fontFamily="@font/prompt_light"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
